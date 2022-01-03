@@ -1,0 +1,185 @@
+/* Bitte schreibe eine HTML-Struktur die dem Bild von der nächsten Folie entspricht
+Denke daran, dass die Struktur von oben nach unten und von links nach rechts aufgebaut ist
+Denke daran semantische Elemente zu verwenden
+Füge so viel Styling hinzu wie du kannst und nutze Pseudo-Selectors
+Google-Fonts: Open Sans, sans-serif; Fredericka the Great, cursive */
+
+@font-face {
+    font-family: "Fredericka", cursive;
+    src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "Open";
+    src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3.2em;
+    
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {font-family: Open;
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1, h2 {
+    font-family: "Fredericka";
+    font-weight: 200;
+    
+    }
+
+h2, h3 {
+    text-align: center;
+}
+
+p, a {
+    font-family: "Open";
+    font-size: larger;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background: url(../img/background_leaf.jpeg) no-repeat center/cover;
+    color: white;
+}
+
+
+header section:nth-of-type(2) div:nth-of-type(1) {
+    width: 50%;
+    margin: 2em auto;
+    padding: 0em 1em;
+}
+
+h2 span {
+    text-transform: uppercase;
+}
+
+header section:nth-of-type(1) {
+    margin: 0 2em;
+    padding: 2em;
+}
+
+header section:nth-of-type(2) {
+    width: 30%;
+    margin: 19% auto;
+    text-align: center;
+}
+
+header section:nth-of-type(2) div:nth-of-type(2) {
+    border: 1px solid white;
+    width: 20%;
+    margin: 3em auto;
+    padding: 0.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+header nav {
+    text-align: right;
+    margin: 0 10em ;
+}
+ul {
+    list-style: none;
+    line-height: 2.1em;
+}
+
+main {
+    width: 30vw;
+    margin: 10em auto;
+    text-align: center;
+}
+
+main h2 {
+    width: 85%;
+    margin: 1em auto;
+}
+
+main p {
+    width: 80%;
+    margin: 2em auto;
+}
+
+
+main div {
+    width: 28%;
+    margin: 4em auto;
+    border: 7px double black;
+    padding: 0.7em;
+    
+}
+main h3 {
+    margin: 0 0 1.1em 0 ;
+}
+
+
+main a {
+    color: black;
+     
+}
+
+
+footer{
+    height: 17vh;
+    background: rgba(58, 56, 56, 0.932);
+    color: white;
+    padding: 1% 0 1% 1%;
+}
+
+footer section:nth-of-type(1) {
+    width: 30%;
+    margin: 1em 0 0 2em;
+    
+
+}
+
+footer a {
+color: white;
+width: 10%;
+margin: .5em;
+
+}
+
+footer div {
+    width: 18%;
+    margin: 2em 0;
+    border: 2.5px solid white;
+    text-align: center;
+    padding: 6px;
+}
+
+footer nav  {
+    width: 20%;
+    margin: 2em 2em 2em 100em;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
