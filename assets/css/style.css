@@ -79,13 +79,13 @@ header section:nth-of-type(1) {
 
 header section:nth-of-type(2) {
     width: 30%;
-    margin: 18% auto;
+    margin: 14% auto;
     text-align: center;
 }
 
 header section:nth-of-type(2) div:nth-of-type(2) {
     border: 1px solid white;
-    width: 25%;
+    width: 30%;
     margin: 3em auto;
     padding: 0.5em;
 }
@@ -98,7 +98,7 @@ header a {
 
 header nav {
     text-align: right;
-    margin: 0 10em ;
+    margin: 0 4em ;
 }
 ul {
     list-style: none;
@@ -106,8 +106,8 @@ ul {
 }
 
 main {
-    width: 30vw;
-    margin: 10em auto;
+    width: 35vw;
+    margin: 6em auto;
     text-align: center;
 }
 
@@ -170,8 +170,8 @@ footer div {
 }
 
 footer nav  {
-    width: 20%;
-    margin: 2em 2em 2em 60em;
+    width: 22%;
+    margin: -1em 1em 1em 76%;
     text-align: right;
 }
 
